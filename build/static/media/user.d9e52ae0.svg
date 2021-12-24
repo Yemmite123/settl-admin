@@ -1,0 +1,30 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="96" height="96" fill="#E5E5E5"/>
+<rect width="1440" height="1382" transform="translate(-389 -160)" fill="#F6F4F8"/>
+<rect x="-112" y="-28" width="320" height="629" rx="8" fill="white"/>
+<circle cx="48" cy="48" r="48" fill="#DAE0F2"/>
+<circle cx="48" cy="48" r="48" fill="#EEF2FF"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="96" height="96">
+<circle cx="48" cy="48" r="48" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<ellipse cx="48" cy="100" rx="40" ry="44" fill="#C9DAFB"/>
+</g>
+<circle cx="48" cy="36" r="16" fill="#C9DAFB"/>
+<g filter="url(#filter0_d)">
+<circle cx="84" cy="83" r="14" fill="white"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M83.9999 85.7987C82.8217 85.7987 81.8666 84.8436 81.8666 83.6653C81.8666 82.4871 82.8217 81.532 83.9999 81.532C85.1781 81.532 86.1332 82.4871 86.1332 83.6653C86.1332 84.8436 85.1781 85.7987 83.9999 85.7987ZM83.9998 86.9987C85.8398 86.9987 87.3332 85.5054 87.3332 83.6654C87.3332 81.8254 85.8398 80.332 83.9998 80.332C82.1598 80.332 80.6665 81.8254 80.6665 83.6654C80.6665 85.5054 82.1598 86.9987 83.9998 86.9987Z" fill="#858EBD"/>
+<circle cx="84" cy="84" r="4" fill="#0FD26F"/>
+<defs>
+<filter id="filter0_d" x="54" y="57" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.701961 0 0 0 0 0.752941 0 0 0 0 0.905882 0 0 0 0.32 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

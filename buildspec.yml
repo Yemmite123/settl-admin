@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      # - npm install
+
+      # Upgrade AWS CLI to the latest version
+      - pip3 install --upgrade awscli
+  # pre_build:
+    # commands:
+      # Install dependencies needed for running tests
+      # - echo install dependencies
+      # - npm install
+  build:
+    commands:
+      - npm install
+      - npm run build
+
+artifacts:
+  files:
+    - "**/*"
+  base_directory: build
